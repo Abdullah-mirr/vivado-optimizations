@@ -1,0 +1,19 @@
+2026-11-23 16:36:35  Start. Vivado 2018.2
+2026-11-23 16:36:36  Final design = commit 33419b5 -> E:/fyp_revision/kintex7/paper_results_final/_src/final
+2026-11-23 16:36:36  
+========== final__xc7k480tffg1156-3 ==========
+2026-11-23 17:02:11  ERROR in final__xc7k480tffg1156-3 : ERROR: [Common 17-69] Command failed: Failed to create design checkpoint
+
+2026-11-23 17:02:11  
+========== final__xc7vx690tffg1930-3 ==========
+2026-11-24 16:00:51  Start. Vivado 2018.2
+2026-11-24 16:00:54  Final design = commit 33419b5 -> E:/fyp_revision/kintex7/paper_results_final/_src/final
+2026-11-24 16:00:54  
+========== final__xc7k480tffg1156-3 ==========   disk: 459.4 GB free
+2026-11-24 16:00:54    reusing kept E:/fyp_revision/kintex7/paper_results_final/final__xc7k480tffg1156-3/best_routed.dcp (no new place and route)
+2026-11-24 16:06:48    done: LUT 1104  FF 462  Fmax 503.78 MHz  sim_pass 1  Pdyn 0.144 W
+2026-11-24 16:06:48  
+========== final__xc7vx690tffg1930-3 ==========   disk: 459.4 GB free
+2026-11-24 16:27:45    pass 1: period 2.150  WNS 0.266  Fmax 530.79  LUT 1183
+2026-11-24 17:08:41    pass 2: period 1.834  WNS -0.138  Fmax 507.10  LUT 1139
+2026-11-24 17:28:23    pass 3: period 1.972  WNS 0.098  Fmax 533.62  LUT 1093

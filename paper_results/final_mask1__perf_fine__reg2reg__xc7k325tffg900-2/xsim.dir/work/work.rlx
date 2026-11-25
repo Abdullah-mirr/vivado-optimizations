@@ -1,0 +1,7 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Xilinx/Vivado/2018.2/data/verilog/src/glbl.v,1529022455,verilog,,,,,,,,,,,,
+E:/fyp_revision/kintex7/paper_results/final_mask1__perf_fine__reg2reg__xc7k325tffg900-2/postroute_funcsim.v,1795375246,verilog,,E:/fyp_revision/kintex7/paper_results/final_mask1__perf_fine__reg2reg__xc7k325tffg900-2/tb_ascon_postroute.v,,Ascon_top;glbl,,,,,,,,
+E:/fyp_revision/kintex7/paper_results/final_mask1__perf_fine__reg2reg__xc7k325tffg900-2/tb_ascon_postroute.v,1795421239,verilog,,C:/Xilinx/Vivado/2018.2/data/verilog/src/glbl.v,,tb_Ascon_top,,,,,,,,

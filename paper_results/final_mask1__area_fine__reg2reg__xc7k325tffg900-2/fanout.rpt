@@ -1,0 +1,41 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Mon Nov 23 00:37:16 2026
+| Host         : DESKTOP-6OISTUM running 64-bit major release  (build 9200)
+| Command      : report_high_fanout_nets -max_nets 20 -file E:/fyp_revision/kintex7/paper_results/final_mask1__area_fine__reg2reg__xc7k325tffg900-2/fanout.rpt
+| Design       : Ascon_top
+| Device       : xc7k325t
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+High Fan-out Nets Information
+
+1. Summary
+----------
+
++-----------------------------+--------+-------------+
+| Net Name                    | Fanout | Driver Type |
++-----------------------------+--------+-------------+
+| phase_reg_n_0_[1]           |    285 | FDRE        |
+| pt_out_en                   |    129 | LUT4        |
+| tag_out_en                  |    129 | LUT6        |
+| K0                          |    128 | LUT6        |
+| S0[63]_i_1_n_0              |    128 | LUT6        |
+| S3[63]_i_1_n_0              |    128 | LUT6        |
+| xk                          |    128 | LUT4        |
+| st_reg_rep__0_n_0           |     92 | FDRE        |
+| st_reg_rep__1_n_0           |     92 | FDRE        |
+| st_reg_rep_n_0              |     92 | FDRE        |
+| phase_reg_n_0_[0]           |     85 | FDRE        |
+| mode                        |     67 | PORT        |
+| st_reg_n_0                  |     66 | FDRE        |
+| dec_pt                      |     64 | LUT3        |
+| S4[62]_i_1_n_0              |     63 | LUT5        |
+| data_len[4]                 |     38 | PORT        |
+| keep_u_0                    |     21 | LUT5        |
+| data_len[3]                 |     18 | PORT        |
+| data_out[95]_INST_0_i_2_n_0 |     18 | LUT3        |
+| keep_u_10                   |     18 | LUT5        |
++-----------------------------+--------+-------------+
+
+

@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# xsim v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Nov 23 13:05:05 2026
+# Process ID: 9196
+# Current directory: E:/fyp_revision/kintex7/paper_results/final_mask1__perf_fine__reg2reg__xc7k325tffg900-2
+# Command line: xsim.exe -log saif_sim.log -mode tcl -source {xsim.dir/sim_saif/xsim_script.tcl}
+# Log file: E:/fyp_revision/kintex7/paper_results/final_mask1__perf_fine__reg2reg__xc7k325tffg900-2/saif_sim.log
+# Journal file: E:/fyp_revision/kintex7/paper_results/final_mask1__perf_fine__reg2reg__xc7k325tffg900-2\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/sim_saif/xsim_script.tcl
+# xsim {sim_saif} -autoloadwcfg -tclbatch {saif_sim.tcl}
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source saif_sim.tcl
+## open_saif perf_fine.saif
+## log_saif [get_objects -r /tb_Ascon_top/dut/*]
+## run all
+FAIL vec 1 CT  beat 0: got xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx exp 00000000000000000000000000000000
+FAIL vec 1 enc: 0 output beats, exp 2
+FAIL vec 1 TAG: got xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx exp c62e8bee468ff66b31c9be1182279c4f
+FAIL vec 1 dec: tag_match = 0, exp 1
+vec 1 (AD 0 bytes, PT 0 bytes) FAILED
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:02:05 . Memory (MB): peak = 212.359 ; gain = 0.000
+INFO: [Common 17-344] 'run' was cancelled
+xsim: Time (s): cpu = 00:00:02 ; elapsed = 00:02:07 . Memory (MB): peak = 212.359 ; gain = 0.000
+INFO: [Common 17-344] 'source' was cancelled
+xsim% 

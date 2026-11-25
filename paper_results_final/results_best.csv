@@ -1,0 +1,2 @@
+tag,part,variant,strategy,io,period,wns,fmax,met,lut,ff,slice,carry,f7,ll,dp,dpl,dpn,pw_fmax_total,pw_fmax_dyn,pw_fmax_static,pw_fix_total,pw_fix_dyn,pw_fix_static,tp_long_Mbps,tp_per_lut,crit_start,crit_end
+final__xc7k480tffg1156-3,xc7k480tffg1156-3,final,perf_fine,reg2reg,2.004,0.019,503.78,1,1104,462,333,11,0,3,1.915,0.345,1.570,0.427,0.209,0.218,0.258,0.041,0.217,7164.87,6.4899,"S4_reg[39]/C","S1_reg[0]/D"

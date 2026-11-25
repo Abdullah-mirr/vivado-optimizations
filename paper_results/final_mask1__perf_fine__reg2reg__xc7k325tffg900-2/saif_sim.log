@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# xsim v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Nov 23 13:10:45 2026
+# Process ID: 7388
+# Current directory: E:/fyp_revision/kintex7/paper_results/final_mask1__perf_fine__reg2reg__xc7k325tffg900-2
+# Command line: xsim.exe -log saif_sim.log -mode tcl -source {xsim.dir/sim_saif/xsim_script.tcl}
+# Log file: E:/fyp_revision/kintex7/paper_results/final_mask1__perf_fine__reg2reg__xc7k325tffg900-2/saif_sim.log
+# Journal file: E:/fyp_revision/kintex7/paper_results/final_mask1__perf_fine__reg2reg__xc7k325tffg900-2\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/sim_saif/xsim_script.tcl
+# xsim {sim_saif} -autoloadwcfg -tclbatch {saif_sim.tcl}
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source saif_sim.tcl
+## open_saif perf_fine.saif
+## log_saif [get_objects -r /tb_Ascon_top/dut/*]
+## run all
+------------------------------------------------------------
+vectors: 1300   tests: 3900   errors: 0
+RESULT: PASS  (all Ascon-AEAD128 vectors match)
+$finish called at time : 1999510 ns : File "E:/fyp_revision/kintex7/paper_results/final_mask1__perf_fine__reg2reg__xc7k325tffg900-2/tb_ascon_postroute.v" Line 1442
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:03:37 . Memory (MB): peak = 212.293 ; gain = 0.000
+## close_saif
+## quit
+INFO: [Common 17-206] Exiting xsim at Mon Nov 23 13:14:29 2026...

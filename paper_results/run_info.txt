@@ -1,0 +1,3 @@
+Vivado: 2018.2
+Runtime (s): 8733
+Power: vectorless, Vivado default activity (see SAIF run for the paper table)

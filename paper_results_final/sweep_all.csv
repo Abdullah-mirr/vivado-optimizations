@@ -1,0 +1,7 @@
+tag,part,variant,strategy,io,iter,period,wns,fmax,met,lut,ff,slice,carry,f7,ll,dp,dpl,dpn
+final__xc7k480tffg1156-3,xc7k480tffg1156-3,final,perf_fine,reg2reg,1,2.080,0.026,486.85,1,1171,461,326,11,0,4,1.944,0.388,1.556
+final__xc7k480tffg1156-3,xc7k480tffg1156-3,final,perf_fine,reg2reg,2,2.004,0.019,503.78,1,1104,462,333,11,0,3,1.915,0.345,1.570
+final__xc7k480tffg1156-3,xc7k480tffg1156-3,final,perf_fine,reg2reg,3,1.935,0.101,545.26,1,1082,462,326,11,0,4,1.783,0.426,1.357
+final__xc7vx690tffg1930-3,xc7vx690tffg1930-3,final,perf_fine,reg2reg,1,2.150,0.266,530.79,1,1183,461,326,11,0,1,1.877,0.259,1.618
+final__xc7vx690tffg1930-3,xc7vx690tffg1930-3,final,perf_fine,reg2reg,2,1.834,-0.138,507.10,0,1139,467,348,11,0,3,1.720,0.345,1.375
+final__xc7vx690tffg1930-3,xc7vx690tffg1930-3,final,perf_fine,reg2reg,3,1.972,0.098,533.62,1,1093,462,309,11,0,4,1.820,0.388,1.432

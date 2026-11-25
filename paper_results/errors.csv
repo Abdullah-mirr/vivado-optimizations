@@ -1,0 +1,13 @@
+tag,error
+final_mask1__default__reg2reg__xc7k325tffg900-2,"ERROR: [Common 17-170] Unknown option '-hierarchical_depth', please type 'report_power -help' for usage info.
+"
+final_mask1__default__io0__xc7k325tffg900-2,"ERROR: [Common 17-170] Unknown option '-hierarchical_depth', please type 'report_power -help' for usage info.
+"
+final_mask1__perf__reg2reg__xc7k325tffg900-2,"ERROR: [Common 17-161] Invalid option value 'performanceoptimized' specified for '-directive'.
+"
+final_mask1__perf__io0__xc7k325tffg900-2,"ERROR: [Common 17-161] Invalid option value 'performanceoptimized' specified for '-directive'.
+"
+final_mask1__area__reg2reg__xc7k325tffg900-2,"ERROR: [Common 17-170] Unknown option '-hierarchical_depth', please type 'report_power -help' for usage info.
+"
+final_mask1__area__io0__xc7k325tffg900-2,"ERROR: [Common 17-170] Unknown option '-hierarchical_depth', please type 'report_power -help' for usage info.
+"

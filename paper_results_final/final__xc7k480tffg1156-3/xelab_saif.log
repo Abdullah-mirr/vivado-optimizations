@@ -1,0 +1,32 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -debug typical -L unisims_ver -L secureip tb_Ascon_top glbl -s sim_saif 
+Multi-threading is on. Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.FDRE_default
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.CARRY4
+Compiling module work.Ascon_top
+Compiling module work.tb_Ascon_top
+Compiling module work.glbl
+Built simulation snapshot sim_saif
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source E:/fyp_revision/kintex7/paper_results_final/final__xc7k480tffg1156-3/xsim.dir/sim_saif/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Nov 24 16:03:01 2026...

@@ -1,0 +1,87 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Tue Nov 24 16:02:04 2026
+| Host         : DESKTOP-6OISTUM running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file E:/fyp_revision/kintex7/paper_results_final/final__xc7k480tffg1156-3/control_sets.rpt
+| Design       : Ascon_top
+| Device       : xc7k480t
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    19 |
+| Unused register locations in slices containing registers |    44 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            1 |
+|      4 |            1 |
+|      8 |            2 |
+|     12 |            2 |
+|    16+ |           13 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              22 |            6 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |             894 |          241 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               8 |            3 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------+-----------------------+------------------+------------------+----------------+
+| Clock Signal |     Enable Signal     | Set/Reset Signal | Slice Load Count | Bel Load Count |
++--------------+-----------------------+------------------+------------------+----------------+
+|  clk         | S4[62]_i_1_n_0_repN_2 |                  |                1 |              2 |
+|  clk         | K0_repN_2             |                  |                1 |              4 |
+|  clk         | S3[63]_i_1_n_0_repN_2 |                  |                3 |              8 |
+|  clk         | round_cnt[3]_i_1_n_0  | rst              |                3 |              8 |
+|  clk         | S3[63]_i_1_n_0_repN_4 |                  |                5 |             12 |
+|  clk         | K0_repN_3             |                  |                1 |             12 |
+|  clk         |                       |                  |                6 |             22 |
+|  clk         | S3[63]_i_1_n_0_repN_5 |                  |               11 |             32 |
+|  clk         | S4[62]_i_1_n_0_repN   |                  |               11 |             32 |
+|  clk         | S3[63]_i_1_n_0        |                  |               11 |             36 |
+|  clk         | S4[62]_i_1_n_0_repN_1 |                  |               12 |             36 |
+|  clk         | K0                    |                  |                6 |             44 |
+|  clk         | S3[63]_i_1_n_0_repN_3 |                  |               15 |             46 |
+|  clk         | K0_repN_1             |                  |                8 |             46 |
+|  clk         | S3[63]_i_1_n_0_repN   |                  |               18 |             52 |
+|  clk         | S4[62]_i_1_n_0        |                  |               24 |             56 |
+|  clk         | S3[63]_i_1_n_0_repN_1 |                  |               20 |             70 |
+|  clk         | K0_repN               |                  |               31 |            150 |
+|  clk         | S0[63]_i_1_n_0        |                  |               63 |            256 |
++--------------+-----------------------+------------------+------------------+----------------+
+
+

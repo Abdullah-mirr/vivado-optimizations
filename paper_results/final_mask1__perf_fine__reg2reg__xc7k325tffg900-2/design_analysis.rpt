@@ -1,0 +1,36 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Mon Nov 23 00:20:29 2026
+| Host         : DESKTOP-6OISTUM running 64-bit major release  (build 9200)
+| Command      : report_design_analysis -timing -max_paths 10 -file E:/fyp_revision/kintex7/paper_results/final_mask1__perf_fine__reg2reg__xc7k325tffg900-2/design_analysis.rpt
+| Design       : Ascon_top
+| Device       : xc7k325t
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Design Analysis
+
+Table of Contents
+-----------------
+1. Setup Path Characteristics 1-10
+
+1. Setup Path Characteristics 1-10
+----------------------------------
+
++----------+-------------+------------+-------------+------------+------------+-------+--------------------+--------------+--------+-------------------------------+-------------------+-----------------+-----------+------+--------------+------------------+---------------+---------+-------------+------------+------------+---------------------------+-------------------------+--------------------+---------------+
+|   Paths  | Requirement | Path Delay | Logic Delay |  Net Delay | Clock Skew | Slack | Clock Relationship | Logic Levels | Routes |          Logical Path         | Start Point Clock | End Point Clock | DSP Block | BRAM | IO Crossings | Config Crossings | SLR Crossings | PBlocks | High Fanout | Dont Touch | Mark Debug | Start Point Pin Primitive | End Point Pin Primitive |   Start Point Pin  | End Point Pin |
++----------+-------------+------------+-------------+------------+------------+-------+--------------------+--------------+--------+-------------------------------+-------------------+-----------------+-----------+------+--------------+------------------+---------------+---------+-------------+------------+------------+---------------------------+-------------------------+--------------------+---------------+
+| Path #1  |       2.044 |      1.989 | 0.403(21%)  | 1.586(79%) |     -0.041 | 0.037 | Safely Timed       |            4 |      4 | FDRE LUT4 LUT4 LUT5 LUT3 FDRE | clk               | clk             | None      | None |            0 |                0 |             0 |       0 |         128 |          0 |          0 | FDRE/C                    | FDRE/D                  | round_cnt_reg[0]/C | S4_reg[58]/D  |
+| Path #2  |       2.044 |      1.963 | 0.395(21%)  | 1.568(79%) |     -0.041 | 0.039 | Safely Timed       |            4 |      4 | FDRE LUT4 LUT4 LUT5 LUT3 FDRE | clk               | clk             | None      | None |            0 |                0 |             0 |       0 |         128 |          0 |          0 | FDRE/C                    | FDRE/D                  | round_cnt_reg[0]/C | S4_reg[1]/D   |
+| Path #3  |       2.044 |      1.715 | 0.309(19%)  | 1.406(81%) |     -0.042 | 0.051 | Safely Timed       |            2 |      3 | FDRE LUT6 LUT6 FDRE           | clk               | clk             | None      | None |            0 |                0 |             0 |       0 |         128 |          0 |          0 | FDRE/C                    | FDRE/CE                 | last_q_reg/C       | S0_reg[31]/CE |
+| Path #4  |       2.044 |      1.952 | 0.395(21%)  | 1.557(79%) |     -0.036 | 0.054 | Safely Timed       |            4 |      4 | FDRE LUT4 LUT4 LUT5 LUT6 FDRE | clk               | clk             | None      | None |            0 |                0 |             0 |       0 |         128 |          0 |          0 | FDRE/C                    | FDRE/D                  | round_cnt_reg[0]/C | S3_reg[1]/D   |
+| Path #5  |       2.044 |      1.738 | 0.309(18%)  | 1.429(82%) |     -0.038 | 0.055 | Safely Timed       |            2 |      3 | FDRE LUT6 LUT6 FDRE           | clk               | clk             | None      | None |            0 |                0 |             0 |       0 |         128 |          0 |          0 | FDRE/C                    | FDRE/CE                 | last_q_reg/C       | S1_reg[32]/CE |
+| Path #6  |       2.044 |      1.712 | 0.309(19%)  | 1.403(81%) |     -0.037 | 0.059 | Safely Timed       |            2 |      3 | FDRE LUT6 LUT6 FDRE           | clk               | clk             | None      | None |            0 |                0 |             0 |       0 |         128 |          0 |          0 | FDRE/C                    | FDRE/CE                 | last_q_reg/C       | S1_reg[40]/CE |
+| Path #7  |       2.044 |      1.723 | 0.309(18%)  | 1.414(82%) |     -0.042 | 0.066 | Safely Timed       |            2 |      3 | FDRE LUT6 LUT6 FDRE           | clk               | clk             | None      | None |            0 |                0 |             0 |       0 |         128 |          0 |          0 | FDRE/C                    | FDRE/CE                 | last_q_reg/C       | S0_reg[26]/CE |
+| Path #8  |       2.044 |      1.723 | 0.309(18%)  | 1.414(82%) |     -0.042 | 0.066 | Safely Timed       |            2 |      3 | FDRE LUT6 LUT6 FDRE           | clk               | clk             | None      | None |            0 |                0 |             0 |       0 |         128 |          0 |          0 | FDRE/C                    | FDRE/CE                 | last_q_reg/C       | S0_reg[49]/CE |
+| Path #9  |       2.044 |      1.723 | 0.309(18%)  | 1.414(82%) |     -0.042 | 0.066 | Safely Timed       |            2 |      3 | FDRE LUT6 LUT6 FDRE           | clk               | clk             | None      | None |            0 |                0 |             0 |       0 |         128 |          0 |          0 | FDRE/C                    | FDRE/CE                 | last_q_reg/C       | S1_reg[37]/CE |
+| Path #10 |       2.044 |      1.698 | 0.309(19%)  | 1.389(81%) |     -0.042 | 0.067 | Safely Timed       |            2 |      3 | FDRE LUT6 LUT6 FDRE           | clk               | clk             | None      | None |            0 |                0 |             0 |       0 |         128 |          0 |          0 | FDRE/C                    | FDRE/CE                 | last_q_reg/C       | S0_reg[17]/CE |
++----------+-------------+------------+-------------+------------+------------+-------+--------------------+--------------+--------+-------------------------------+-------------------+-----------------+-----------+------+--------------+------------------+---------------+---------+-------------+------------+------------+---------------------------+-------------------------+--------------------+---------------+
+* Bounding box calculated as % of dimensions for the target device (396, 700)
+
+
